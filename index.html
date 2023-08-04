@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber security</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="home">
+      <div class="navbar">
+        <div class="container">
+          <a href="#" class="logo">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <div class="menu-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link-active">Home</a>
+            <a href="cyber-attacks.html">Cyber attacks</a>
+            <a href="security.html">Security</a>
+            <a href="contact.html">Contact </a>
+            <div class="lang">
+              <a href="index.html" class="english">English</a>
+              <div class="lang-other">
+                <a href="indexsq.html" class="shqip">Shqip</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="c-s">
+      <div class="container">
+        <h1 class="cs-h1">Cyber Security</h1>
+        <br />
+        <div class="what-is-cs">
+          <img src="images/cybersecurity-posting.jpg" class="order-2" alt="" />
+          <div class="what-is-cs-text">
+            <p>
+              Computer security, cybersecurity or information technology
+              security (IT security) is the protection of computer systems and
+              networks from information disclosure, theft of or damage to their
+              hardware, software, or electronic data, as well as from the
+              disruption or misdirection of the services they provide.
+            </p>
+            <br />
+            <p>
+              The field is becoming increasingly significant due to the
+              increased reliance on computer systems, the Internet and wireless
+              network standards such as Bluetooth and Wi-Fi, and due to the
+              growth of "smart" devices, including smartphones, televisions, and
+              the various devices that constitute the "Internet of things".
+              Owing to its complexity, both in terms of politics and technology,
+              cybersecurity is also one of the major challenges in the
+              contemporary world.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+
+    <div class="read-more">
+      <div class="container">
+        <h1>Cyber attacks</h1>
+        <div class="read-more-content">
+          <div class="read-more-text">
+            <p>
+              In computers and computer networks, an attack is any attempt to
+              expose, alter, disable, destroy, steal or gain information through
+              unauthorized access to or make unauthorized use of an asset. A
+              cyberattack is any offensive maneuver that targets computer
+              information systems, infrastructures, computer networks, or
+              personal computer devices. <br /><br />
+              An attacker is a person or process that attempts to access data,
+              functions, or other restricted areas of the system without
+              authorization, potentially with malicious intent. Depending on the
+              context, cyberattacks can be part of cyberwarfare or
+              cyberterrorism.
+            </p>
+            <button>
+              <a href="cyber-attacks.html">Read more...</a>
+            </button>
+          </div>
+          <img src="images/cyber-attacks-image.jpg" alt="" />
+        </div>
+        <br /><br /><br />
+        <h1>Security</h1>
+        <br /><br />
+        <div class="read-more-content">
+          <img src="images/security-image-3.jpg" class="order-2" alt="" />
+          <div class="read-more-text">
+            <p>
+              Security is freedom from, or resilience against, potential harm
+              (or other unwanted coercive change) caused by others.
+              Beneficiaries (technically referents) of security may be of
+              persons and social groups, objects and institutions, ecosystems or
+              any other entity or phenomenon vulnerable to unwanted change.
+
+              <br /><br />
+              Refugees fleeing war and insecurity in Iraq and Syria arrive at
+              Lesbos Island, supported by Spanish volunteers, 2015 Security
+              mostly refers to protection from hostile forces, but it has a wide
+              range of other senses
+            </p>
+            <button>
+              <a href="security.html">Read more...</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <div class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="index.html" class="nav-link-active">Home</a>
+            <a href="about.html">About</a>
+            <a href="developers.html">Developers</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <a href="#">
+            <img
+              src="images/logo.png"
+              style="float: right"
+              class="f-logo"
+              alt=""
+            />
+          </a>
+        </div>
+        <br /><br /><br />
+        <div class="f-copy">
+          <p>&copy; Innovation Academy 2021, Inc. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".menu-toggler").click(function () {
+          $(this).toggleClass("active");
+          $(".nav-links").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>

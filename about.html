@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber security - About us</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="abouthome">
+      <div class="navbar">
+        <div class="container">
+          <a href="#" class="logo">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <div class="menu-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="cyber-attacks.html">Cyber attacks</a>
+            <a href="security.html">Security</a>
+            <a href="contact.html">Contact </a>
+            <div class="lang">
+              <a href="about.html" class="english">English</a>
+              <div class="lang-other">
+                <a href="aboutsq.html" class="shqip">Shqip</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="about">
+      <div class="container">
+        <h1>About</h1>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              We developed this website to tell you about cyber security, cyber
+              attacks and security. Our mission is to help people to prevent
+              herself from cyber attacks.
+
+              <br /><br />
+
+              We helped a lot of people preventing herself from cyber attacks,
+              and they got much more secure accounts by our website
+            </p>
+          </div>
+          <img src="images/logo.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <div class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="nav-link-active">About</a>
+            <a href="developers.html">Developers</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <a href="#">
+            <img
+              src="images/logo.png"
+              style="float: right"
+              class="f-logo"
+              alt=""
+            />
+          </a>
+        </div>
+        <br /><br /><br />
+        <div class="f-copy">
+          <p>&copy; Innovation Academy 2021, Inc. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".menu-toggler").click(function () {
+          $(this).toggleClass("active");
+          $(".nav-links").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
